@@ -1,0 +1,77 @@
+/*sync settings*/
+body {font-family: 'Roboto', sans-serif; margin: auto;}
+nav {background-color:#1da2a7; border: 1px solid white;}
+nav li {display:inline-block;}
+nav li a {color:white; text-decoration:none;font-weight: bold;}
+nav li a:hover {background-color: white; text-decoration:none; color: #4134b4;}
+main {background-color:#1da2a7; border: 1px solid white;}
+footer {background-color :#1da2a7; color: white; border: 1px solid white;}
+.socials-share a {color: rgb(195, 200, 204);}
+.card-header a {text-decoration: none; color:#1da2a7}
+.nav-item {color:#1da2a7;}
+#map iframe {float: right;}
+
+* {box-sizing: border-box;}
+
+/*For Mobile*/
+@media only screen and (max-width: 768px) {
+
+nav li {margin-top: 12px; margin-bottom: 3px;}
+nav li a {padding: 5px; font-size: 12px;}
+#map iframe {margin-top: -1px; width: 100px;}
+footer  {padding-top: 15px;}
+footer p {margin-left: 15px; font-size: 13px;}
+.carousel-caption h5 {font-size: 12px;}
+.carousel-caption p {font-size: 10px;}
+.card-header a {font-size: 14px;}
+.card-body1 b,li,p {font-size: 13px;}
+.card-body2 {font-size: 12px;}
+#section1 h1 {font-size: 16px;} #section2 h1 {font-size: 16px;} #section3 h1 {font-size: 16px;} #section4 h1 {font-size: 16px;} #section5 h1 {font-size: 16px;} #section6 h1 {font-size: 16px;} #section7 h1 {font-size: 16px;} #section8 h1 {font-size: 16px;} #section9 h1 {font-size: 16px;} 
+#section1 p {font-size: 13px;} #section2 p {font-size: 13px;} #section3 p {font-size: 13px;} #section4 p {font-size: 13px;} #section5 p {font-size: 13px;} #section6 p {font-size: 13px;} #section7 p {font-size: 13px;} #section8 p {font-size: 13px;} #section9 p {font-size: 13px;} 
+.nav-item a {font-size: 12px;}
+#section1 {margin-top: 15px;}
+#section1 h1 {padding-top: 460px;} #section2 h1 {padding-top: 460px;} #section3 h1 {padding-top: 460px;} #section4 h1 {padding-top: 460px;} #section5 h1 {padding-top: 460px;} #section6 h1 {padding-top: 460px;} #section7 h1 {padding-top: 460px;} #section8 h1 {padding-top: 460px;} #section9 h1 {padding-top: 460px;}
+}
+
+/*For Tablet*/
+@media only screen and (min-width: 768px) {
+    
+nav li {margin-top: 12px; margin-bottom: 3px;}
+nav li a {padding-left:15px; font-size:13px;}
+#map iframe {margin-top: 1px; width: 180px;}
+footer {padding-top: 15px;}
+footer p {margin-left: 15px; font-size: 13px;}
+.carousel-caption h5 {font-size: 20px;}
+.carousel-caption p {font-size: 12px;}
+.card-header a {font-size: 16px;}
+.card-body1 b,li,p {font-size: 15px;}
+.card-body2 {font-size: 14px;}
+#section1 h1 {font-size: 20px;} #section2 h1 {font-size: 20px;} #section3 h1 {font-size: 20px;} #section4 h1 {font-size: 20px;} #section5 h1 {font-size: 20px;} #section6 h1 {font-size: 20px;} #section7 h1 {font-size: 20px;} #section8 h1 {font-size: 20px;} #section9 h1 {font-size: 20px;} 
+#section1 p {font-size: 17px;} #section2 p {font-size: 17px;} #section3 p {font-size: 17px;} #section4 p {font-size: 17px;} #section5 p {font-size: 17px;} #section6 p {font-size: 17px;} #section7 p {font-size: 17px;} #section8 p {font-size: 17px;} #section9 p {font-size: 17px;} 
+.nav-item a {font-size: 13px;}
+#section1 {margin-top: 15px;}
+#section1 h1 {padding-top: 90px;} #section2 h1 {padding-top: 90px;} #section3 h1 {padding-top: 90px;} #section4 h1 {padding-top: 90px;} #section5 h1 {padding-top: 90px;} #section6 h1 {padding-top: 90px;} #section7 h1 {padding-top: 90px;} #section8 h1 {padding-top: 90px;} #section9 h1 {padding-top: 90px;}
+}
+
+/*For Desktop*/
+@media only screen and (min-width: 992px) {
+
+nav li {margin-top: 12px; margin-bottom: 3px; margin-left: 17px;}
+nav li a {padding:10px; font-size:23px;}
+#map iframe {margin-top: -20px;}
+footer {padding-top: 20px;}
+footer p {margin-left: 4px; font-size: 16px;}
+.carousel-caption h5 {font-size: 28px;}
+.carousel-caption p {font-size: 20px;}
+.socials-share a {font-size: 20px; margin-left: 4px;}
+.card-header a {font-size: 18px;}
+.card-body1 b,li,p {font-size: 17px;}
+.card-body2 {font-size: 16px;}
+#section1 h1 {font-size: 24px;} #section2 h1 {font-size: 24px;} #section3 h1 {font-size: 24px;} #section4 h1 {font-size: 24px;} #section5 h1 {font-size: 24px;} #section6 h1 {font-size: 24px;} #section7 h1 {font-size: 24px;} #section8 h1 {font-size: 24px;} #section9 h1 {font-size: 24px;}
+#section1 p {font-size: 20px;} #section2 p {font-size: 20px;} #section3 p {font-size: 20px;} #section4 p {font-size: 20px;} #section5 p {font-size: 20px;} #section6 p {font-size: 20px;} #section7 p {font-size: 20px;} #section8 p {font-size: 20px;} #section9 p {font-size: 20px;} 
+.nav-item a {font-size: 16px;}
+#section1 {margin-top: 20px;}
+#section1 h1 {padding-top: 80px;} #section2 h1 {padding-top: 80px;} #section3 h1 {padding-top: 80px;} #section4 h1 {padding-top: 80px;} #section5 h1 {padding-top: 80px;} #section6 h1 {padding-top: 80px;} #section7 h1 {padding-top: 80px;} #section8 h1 {padding-top: 80px;} #section9 h1 {padding-top: 80px;}
+}
+
+

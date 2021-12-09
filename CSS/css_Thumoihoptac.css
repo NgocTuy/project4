@@ -1,0 +1,34 @@
+body {width: 60%; border: 1px solid rgb(110, 105, 105);margin-left:20%; margin-top: -17px;}
+.card-header a { color:rgb(136, 17, 27);}
+.container h1,h3 {color:rgb(155, 97, 26); text-align: center;}
+.container {background-color: rgb(245, 248, 248);}
+.card {margin-bottom: 10px;}
+
+* {box-sizing: border-box;}
+
+/*For Mobile*/
+@media only screen and (max-width: 768px) {
+.container h1 {font-size: 20px;}
+.container h3 {font-size: 16px;}
+.container p {font-size: 14px;}
+.card-header a {font-size: 14px;}
+.card-body {font-size: 12px;}
+}
+
+/*For Tablet*/
+@media only screen and (min-width: 768px) {
+.container h1 {font-size: 22px;}
+.container h3 {font-size: 18px;}
+.container p {font-size: 16px;}
+.card-header a {font-size: 16px;}
+.card-body {font-size: 14px;}   
+}
+
+/*For Desktop*/
+@media only screen and (min-width: 992px) {
+.container h1 {font-size: 26px;}
+.container h3 {font-size: 22px;}
+.container p {font-size: 20px;}
+.card-header a {font-size: 20px;}
+.card-body {font-size: 18px;} 
+}
